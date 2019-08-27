@@ -1,4 +1,5 @@
 # Day 1: Array Intersection
+
 Can you write a function that takes two inputs and returns their intersection? All elements in the final result should be unique.
 
 ```javascript

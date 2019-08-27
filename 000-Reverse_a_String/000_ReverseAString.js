@@ -7,7 +7,7 @@ function reverseString(s) {
 	// TODO refactor/optimize for algorithmic complexity
 	// Current complexity: O(n^2)
 
-	// TODO use console.log()
+	// TODO use console.log() (apparently that's what's intended, anyway...)
 	if (typeof s == 'string') {
 		r = "";
 		for (i = s.length; i >= 0; i--) {

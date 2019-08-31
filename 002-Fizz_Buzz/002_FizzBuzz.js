@@ -1,4 +1,9 @@
 function fizzBuzz(n) {
+	// Desc: Takes an integer input n, counts from 1 to n, and displays 'fizz' if the number is divisible by three, 'buzz' if the number is divisible by five, and the number itself if it is not divisible by either.
+	// Input: n, an integer
+	// Returns: a string of numbers, fizzes, and buzzes (no whitespace)
+	// TODO: build the result with an array instead of appending to a string
+	// Complexity: O(n)
 	result = '';
 	if (n == 0) {
 		return '';

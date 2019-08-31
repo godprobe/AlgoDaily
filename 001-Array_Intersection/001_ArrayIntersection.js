@@ -6,6 +6,7 @@ function intersection(nums1, nums2) {
 	// 	nums2 (array) assumed to be an integer array from the examples
 	// Returns:
 	// 	result (array) unique values shared by both input arrays
+	// Complexity: O(n^2)
 
 	// TODO check the official solution and very likely optimize this code!
 

@@ -2,7 +2,7 @@
 
 Can you implement the JS Map class from scratch? Only two methods are necessary-- `get` and `set`. Do not use `JS Objects` ({} notation) for this exercise.
 
-*Note: Regular Javascript objects and he Map class are both simple key-value hash tables/associative arrays, with a few key differences:
+*Note: Regular Javascript objects and the Map class are both simple key-value hash tables/associative arrays, with a few key differences:
 
 A `Map` object can iterate through its elements in insertion order, whereas JavaScript's `Object`s don't guarantee an order. In addition, `Object`s have default keys due to their prototype, and `Map`s don't come with default keys. [Here's a good breakdown](https://medium.com/front-end-weekly/es6-map-vs-object-what-and-when-b80621932373) of the two. For the purpose of this exercise, let's assume the same functionality for both.*
 

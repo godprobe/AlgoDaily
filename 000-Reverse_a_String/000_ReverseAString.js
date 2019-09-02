@@ -3,15 +3,19 @@ function reverseString(s) {
 	// Inputs: (string) s is the string to be reversed.
 	// Returns: the reversed string.
 	// TODO use an assert here instead
-	// TODO refactor/optimize for algorithmic complexity
 	// Current complexity: O(n)
 
 	if (typeof s == 'string') {
-		r = "";
-		for (i = s.length; i >= 0; i--) {
-			r += s.charAt(i);
+		strArr = s.split('');
+		head = 0;
+		tail = strArr.length;
+		while (head < tail) {
+			// swap head and tail
+			[strArr[head], strArr[tail]] = [strArr[tail], strArr[head]];
+			head++;
+			tail--;
 		}
-		return r;
+		return strArr.join('');
 	} else {
 		return "Error: expected a string as input.";
 	}

@@ -1,8 +1,8 @@
 function lonelyNumber(nums) {
-	// Description: Returns the only number for which there is a single instance in an array of numbers, in O(n) linear time.
+	// Description: Returns the only number for which there is a single instance in an array of numbers that otherwise always show up twice, in O(n) linear time.
 	// Input: An array of numbers, with one number guaranteed to be unique.
 	// Returns: The only unique number in the array.
-	
+
 	for (let i = 0; i < nums.length; i++) {
 		// Drop the element and includes() or indexOf(), but prob not O(n)...
 		check = nums.shift();

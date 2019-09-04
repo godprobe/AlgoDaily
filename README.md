@@ -3,6 +3,8 @@ Daily programming exercises from [AlgoDaily](http://www.algodaily.com/).
 
 | Day | Exercise | JS/Python | Complexity
 |:--- |:-------- |:---------:|:----------
+| 12  | Detect Substring in String |  | 
+| 11  | Sum Digits Until One |  | 
 | 10  | Binary Tree In-Order Traversal |  | 
 | 9   | Implement a Hash Map |  | 
 | 8   | Lonely Number | JS? | check for O(n)!

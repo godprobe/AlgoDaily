@@ -1,5 +1,5 @@
 # AlgoDaily
-Daily programming exercises from [AlgoDaily](http://www.algodaily.com/).
+Daily programming exercises from AlgoDaily.
 
 | Day | Exercise | JS/Python | Complexity
 |:--- |:-------- |:---------:|:----------
@@ -16,3 +16,5 @@ Daily programming exercises from [AlgoDaily](http://www.algodaily.com/).
 | 2   | Fizz Buzz | JS | ...
 | 1   | Array Intersection | JS | ...
 | 0   | Reverse a String | JS | ...
+
+*2019 Sep 11th (roughly) -- The [AlgoDaily website](http://www.algodaily.com/) seems to have been revamped with a paid portion and a free portion, plus the original page listing the challenges is completely broken, and the emails are skipping days (went from Day 16 to Day 22, to Day 24). Compounded with some vaguely-written challenges and dubious best solves, I will probably discontinue following the AlgoDaily challenges unless it gets back to what it was, in favor of CodeWars or similar.*
